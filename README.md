@@ -1,15 +1,6 @@
 # Chocolate Chip Cookie Analysis
 This project performs a data analysis of ingredient data for chocolate chip cookie recipes to determine whether changing the amount of fat or sugar impacts the rating of a chocolate chip cookie recipe.
 
-## Table of Contents
-- [Authors] (#authors)
-- [Installation] (#installation)
-- [Data] (#data)
-- [Code] (#code)
-- [Results] (#results)
-- [References] (#references)
-- [License] (#license)
-
 ## Authors
 [@databymir] (https://github.com/databymir)
 
@@ -47,9 +38,13 @@ The summarized information was pivoted and merged with a tibble that summarized 
 
 ## Code
 ├── choc_chip_cookie_ingredients.csv
+
 ├── cookie_analysis.qmd
+
 ├── LICENSE
+
 ├── README.md
+
 └── .gitignore
 
 ## Results
