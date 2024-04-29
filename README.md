@@ -41,8 +41,6 @@ The summarized information was pivoted and merged with a tibble that summarized 
 
 ├── cookie_analysis.qmd
 
-├── cookie_analysis.html
-
 ├── LICENSE
 
 ├── README.md
