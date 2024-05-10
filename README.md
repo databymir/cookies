@@ -58,6 +58,7 @@ Based on the visualizations, descriptive statistics, and models generated, chang
 
 ## References
 The Culinary Pro. (n.d.). *Cookies.* https://www.theculinarypro.com/cookies 
+
 O'Brien, Elle. (2018, May 10). *cookies.* GitHub. https://github.com/the-pudding/data/tree/master/cookies
 
 ## License
