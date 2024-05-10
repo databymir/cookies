@@ -20,7 +20,7 @@ R Version: R-4.3.3
 tidyverse
 
 #### Data Manipulation
-dplyr (installed as part of tidyverse))
+dplyr (installed as part of tidyverse)
 janitor
 
 #### Data Visualization
