@@ -1,5 +1,11 @@
 # Chocolate Chip Cookie Analysis
-This project performs a data analysis of ingredient data for chocolate chip cookie recipes to determine whether changing the amount of fat or sugar impacts the rating of a chocolate chip cookie recipe.
+**This project performs a data analysis of ingredient data for chocolate chip cookie recipes to determine whether changing the amount of fat or sugar impacts the rating of a chocolate chip cookie recipe:**
+* Prepared data for analysis using dplyr functions to remove duplicate information, categorize ingredients, convert to standard measurements, and summarize volume by category.
+* Identified and removed outliers using the 1.5(IQR) rule
+* Analyzed the distribution of each variable by plotting histograms in ggplot2
+* Explored the relationship between variables by plotting scatterplots in ggplot2
+* Computed and analyzed descriptive statistics in R
+* Created three linear regression models and compared them using adjusted R-squared and Akaike information criterion (AIC) values
 
 ## Authors
 [@databymir] (https://github.com/databymir)
