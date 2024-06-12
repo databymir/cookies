@@ -342,7 +342,7 @@ plot_1c
 
 Plot 1C demonstrates that rating is a left-skewed distribution with most ratings between 0.75 and 1.00.
 
-#### Plot 1D. Scatter plot: Parts Fat vs. Rating
+#### Plot 1D. Scatterplot: Rating vs. Parts Fat
 
 ```{r}
 plot_1d <- ratio_analysis |> 
@@ -352,7 +352,7 @@ plot_1d <- ratio_analysis |>
   )) +
   geom_point() +
   labs(
-    title="1D. Scatterplot: Parts Fat vs. Rating",
+    title="1D. Scatterplot: Rating vs. Parts Fat",
     x="Fat (parts)",
     y="Rating"
   ) +
@@ -363,7 +363,7 @@ plot_1d
 
 Plot 1D demonstrates no visually discernible patterns based on the plotted points. A large range of ratings can be viewed for similar amounts of fat, indicating that there is not a relationship between rating and parts fat.
 
-#### Plot 1E. Scatter plot: Parts Sugar vs. Rating
+#### Plot 1E. Scatterplot: Rating vs. Parts Sugar
 
 ```{r}
 plot_1e <- ratio_analysis |> 
@@ -373,7 +373,7 @@ plot_1e <- ratio_analysis |>
   )) +
   geom_point() +
   labs(
-    title="1E. Scatterplot: Parts Sugar vs. Rating",
+    title="1E. Scatterplot: Rating vs. Parts Sugar",
     x="Sugar (parts)",
     y="Rating"
   ) +
@@ -384,7 +384,7 @@ plot_1e
 
 Plot 1E demonstrates no visually discernible patterns based on the plotted points. A large range of ratings can be viewed for similar amounts of sugar, indicating that there is not a relationship between rating and parts sugar.
 
-#### Plot 1F. Scatter plot: Parts Sugar vs. Parts Fat
+#### Plot 1F. Scatterplot: Parts Fat vs. Parts Sugar
 
 ```{r}
 plot_1f <- ratio_analysis |> 
@@ -395,7 +395,7 @@ plot_1f <- ratio_analysis |>
   )) +
   geom_point(size=2) +
   labs(
-    title="1F. Scatterplot: Parts Sugar vs. Parts Fat",
+    title="1F. Scatterplot: Parts Fat vs. Parts Sugar",
     x="Sugar (parts)",
     y="Fat (parts)"
   ) +
