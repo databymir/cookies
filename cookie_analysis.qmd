@@ -178,7 +178,7 @@ cups_by_category <- pivot_wider(cups_by_category, names_from=category, names_pre
 
 Rows with any NA values were spot-checked and predominantly include recipes that are substituting one or more of the key recipe components for boxed cake or cookie mixes. This code has been omitted for clarity and conciseness.
 
-Recipes using boxed mixes are not representative of the data we are interested in, so rows with NA values are omitted:
+Recipes using boxed mixes are not representative of the data I am interested in, so rows with NA values are omitted:
 
 ```{r}
 # update tibble for flour-fat-sugar ratio
