@@ -7,6 +7,8 @@
 * Computed and analyzed descriptive statistics in R
 * Created three linear regression models and compared them using adjusted R-squared and Akaike information criterion (AIC) values
 
+Note: An HTML rendering of the project notebook can be viewed at: https://databymir.github.io/cookies/cookie_analysis.html
+
 ## Authors
 [@databymir] (https://github.com/databymir)
 
@@ -46,6 +48,10 @@ The summarized information was pivoted and merged with a tibble that summarized 
 ├── choc_chip_cookie_ingredients.csv
 
 ├── cookie_analysis.qmd
+
+├── cookie_analysis.html
+
+├── cookie_analysis_files
 
 ├── LICENSE
 
